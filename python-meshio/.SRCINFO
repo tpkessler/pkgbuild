@@ -1,11 +1,12 @@
 pkgbase = python-meshio
 	pkgdesc = Input/output for many mesh formats
 	pkgver = 4.0.16
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/nschloe/meshio
 	arch = x86_64
 	license = MIT
 	makedepends = python-pep517
+	makedepends = python-pip
 	depends = python-numpy
 	optdepends = python-netcdf4
 	optdepends = python-h5py
